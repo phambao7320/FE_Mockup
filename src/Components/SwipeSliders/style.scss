@@ -1,0 +1,21 @@
+.wrapper-overide-css .slick-slider {
+    .wrapper-override-fix-button.slick-prev{
+        left: -5px;
+        z-index: 20;
+        top: 50%;
+        &::before {
+            content: "" !important;
+        }
+    }
+
+    .wrapper-override-fix-button.slick-next{
+        right: 5px;
+        z-index: 20;
+        top: 50%;
+        color: white;
+        background: transparent ;
+        &::before{
+            content: "" !important;
+        }
+    }
+}

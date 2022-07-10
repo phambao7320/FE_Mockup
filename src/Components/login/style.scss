@@ -1,0 +1,58 @@
+.modal__overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wiss {
+    flex-basis: 50% ;
+    width: 100%;
+    display: block;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    height: 46px;
+    box-sizing: border-box;
+}
+.wiss:focus {
+    border-color: #1877f2;
+}
+
+.wiss .ant-select:focus,
+.wiss .ant-select:hover {
+    border-color: none;
+    box-shadow: none;
+}
+
+.wiss .ant-select {
+    border-radius: 6px !important; 
+    flex-basis: 50% !important;
+    marginTop : '5px' !important;
+    // background-color : #fff !important; 
+    display: block !important;
+    width: 100% !important;
+    height: 46px !important;
+    border: none;
+}
+
+.wiss .ant-select-selector {
+    padding: 0 !important;
+    height: 46px !important;
+    border-radius: 6px;
+    padding-left: 11px !important;
+    background-color: none;
+}
+
+.wiss .ant-select-selection-search {
+    height: 46px;
+    width: 100%;
+    left: 0 !important;
+    display: none;
+    border-radius: 6px;
+}
+
+.wiss .ant-select-selection-item {
+    flex-basis: 50% !important;
+    line-height: 46px !important;
+    width: 100% !important;
+    height: 44px !important;
+    border-radius: 6px;
+    // margin-top: 1px;
+}
